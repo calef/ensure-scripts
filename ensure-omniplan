@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-./ensure-homebrew-cask-recipe omniplan
