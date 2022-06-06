@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe grammarly
+rm -rf /Applications/Grammarly\ Desktop.app
