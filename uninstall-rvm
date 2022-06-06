@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+which -s rvm
+if [[ $? == 0 ]] ;
+then
+  rvm implode
+fi
