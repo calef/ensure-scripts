@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# M1 macs don't work with VirtualBox, so use docker as the default provider
+if [[ -f $HOME/Vagrantfile ]];
+then
+  mv $HOME/Vagrantfile $HOME/Vagrantfile.bak
+fi
+echo "Vagrant.configure('2') do |config|
+  config.vm.provider 'docker'
+end" > $HOME/projects/Vagrantfile
+
+# user rancher as the docker provider
+./ensure-rancher-desktop
+./ensure-homebrew-recipe vagrant
