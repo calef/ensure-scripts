@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-curl -L https://install.perlbrew.pl | bash
+which -s perlbrew
+if [[ $? != 0 ]] ; then
+  curl -L https://install.perlbrew.pl | bash
+fi
