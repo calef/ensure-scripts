@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe textmate
+rm -rf /Applications/TextMate.app
