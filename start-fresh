@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+read -p "Are you sure that you want to remove every known dependency and break all of your development environments? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  echo "Starting fresh."
+  ./uninstall-directory-programs
+  ./uninstall-firefox
+  ./uninstall-git
+  ./uninstall-github
+  ./uninstall-google-chrome
+  ./uninstall-gpg
+  ./uninstall-grammarly
+  ./uninstall-mac-cli
+  ./uninstall-nova
+  ./uninstall-nvm
+  ./uninstall-omnigraffle
+  ./uninstall-omniplan
+  ./uninstall-rancher-desktop
+  ./uninstall-rvm
+  ./uninstall-slack
+  ./uninstall-steam
+  ./uninstall-textmate
+  ./uninstall-vagrant
+  ./uninstall-zoomus
+
+  ./uninstall-homebrew
+  ./uninstall-directory-projects
+else
+  echo "start-fresh cancelled!" 1>&2;
+  exit 1
+fi
