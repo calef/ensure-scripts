@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe firefox
+rm -rf /Applications/Firefox.app
