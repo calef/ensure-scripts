@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./ensure-homebrew
+brew uninstall $1
