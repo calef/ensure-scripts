@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+cd /tmp
+curl https://downloads.omnigroup.com/software/MacOSX/10.14/OmniPlan-3.14.4.dmg --output OmniPlan-3.14.4.dmg
+open OmniPlan-3.14.4.dmg
+cd -
+echo "Follow the installation instructions"
