@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./ensure-directory $HOME/projects
