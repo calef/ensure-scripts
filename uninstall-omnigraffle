@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe omnigraffle
+rm -rf /Applications/OmniGraffle.app
