@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe zoomus
+rm -rf /Applications/zoom.us.app
