@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe google-chrome
+rm -rf /Applications/Google\ Chrome.app
