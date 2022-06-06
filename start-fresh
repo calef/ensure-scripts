@@ -24,7 +24,7 @@ then
   ./uninstall-textmate
   ./uninstall-vagrant
   ./uninstall-wget
-  ./uninstall-zoomus
+  ./uninstall-zoom
 
   ./uninstall-homebrew
   ./uninstall-directory-projects
