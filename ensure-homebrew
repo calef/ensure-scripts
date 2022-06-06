@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+which -s brew
+if [[ $? != 0 ]] ; then
+  ./ensure-macos
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo "Close your terminal, reopen, and rerun the prior command." 1>&2;
+  exit 1;
+fi
