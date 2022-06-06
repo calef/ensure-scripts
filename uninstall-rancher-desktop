@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe rancher
+rm -rf /Applications/Rancher\ Desktop.app
