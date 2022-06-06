@@ -23,6 +23,7 @@ then
   ./uninstall-steam
   ./uninstall-textmate
   ./uninstall-vagrant
+  ./uninstall-wget
   ./uninstall-zoomus
 
   ./uninstall-homebrew
