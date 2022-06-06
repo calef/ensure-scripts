@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-./uninstall-homebrew-recipe nova
 rm -rf /Applications/Nova.app

@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 
-./ensure-homebrew-cask-recipe nova
+./ensure-wget
+cd /tmp
+wget https://download.panic.com/nova/Nova-Latest.zip
+unzip Nova-Latest.zip
+mv Nova.app /Applications
+rm Nova-Latest.zip
+cd -
