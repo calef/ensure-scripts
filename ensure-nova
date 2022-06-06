@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 
-./ensure-wget
-cd /tmp
-wget https://download.panic.com/nova/Nova-Latest.zip
-unzip Nova-Latest.zip
-mv Nova.app /Applications
-rm Nova-Latest.zip
-cd -
+if [[ ! -d /Applications/Nova.app ]];
+then
+  ./ensure-wget
+  cd /tmp
+  wget https://download.panic.com/nova/Nova-Latest.zip
+  unzip Nova-Latest.zip
+  mv Nova.app /Applications
+  rm Nova-Latest.zip
+  cd -
+fi
