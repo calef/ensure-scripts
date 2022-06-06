@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./uninstall-homebrew-recipe steam
+rm -rf /Applications/Steam.app
