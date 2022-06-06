@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+stamp="$1_$(date +%Y%m%d_%H%M%S)"
+mv $1 $stamp
+echo "Moved $1 -> $stamp"
