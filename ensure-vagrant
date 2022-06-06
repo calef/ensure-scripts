@@ -9,6 +9,6 @@ echo "Vagrant.configure('2') do |config|
   config.vm.provider 'docker'
 end" > $HOME/projects/Vagrantfile
 
-# user rancher as the docker provider
+# use rancher as the docker provider
 ./ensure-rancher-desktop
 ./ensure-homebrew-recipe vagrant
