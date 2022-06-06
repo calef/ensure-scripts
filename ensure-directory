@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# ensure that a directory exists or create it
+if [[ ! -d $1 ]];
+then
+  mkdir -p $1
+fi
