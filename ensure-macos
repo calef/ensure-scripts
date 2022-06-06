@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [[ $OSTYPE == 'darwin'* ]];
+then
+  echo 'Confirmed running MacOS.'
+else
+  echo "Must be running MacOS!" 1>&2;
+  exit 1;
+fi
