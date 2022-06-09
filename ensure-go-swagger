@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+./ensure-homebrew
+brew tap go-swagger/go-swagger
+./ensure-homebrew-recipe go-swagger
