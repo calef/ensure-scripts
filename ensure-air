@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./ensure-golang
+go install github.com/cosmtrek/air@latest
